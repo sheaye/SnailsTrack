@@ -1,0 +1,27 @@
+ext {
+
+    versions = [
+            butterknife: '8.8.1'
+    ]
+
+    plugin = [
+            butterknife: "com.jakewharton:butterknife-gradle-plugin:${versions.butterknife}",
+    ]
+
+    builtin = [
+            support_v7   : "com.android.support:appcompat-v7:27.1.1",
+            constraint   : "com.android.support.constraint:constraint-layout:1.1.0",
+            junit        : "junit:junit:4.12",
+            runner       : "com.android.support.test:runner:1.0.2",
+            espresso_core: "com.android.support.test.espresso:espresso-core:3.0.2"
+    ]
+
+    processor = [
+            butterknife: "com.jakewharton:butterknife-compiler:${versions.butterknife}",
+    ]
+
+    compilation = [
+            butterknife: "com.jakewharton:butterknife:${versions.butterknife}",
+    ]
+
+}
