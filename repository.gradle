@@ -1,7 +1,8 @@
 ext {
 
     versions = [
-            butterknife: '8.8.1'
+            butterknife    : '8.8.1',
+            android_support: '27.1.1'
     ]
 
     plugin = [
@@ -9,7 +10,7 @@ ext {
     ]
 
     builtin = [
-            support_v7   : "com.android.support:appcompat-v7:27.1.1",
+            support_v7   : "com.android.support:appcompat-v7:${versions.android_support}",
             constraint   : "com.android.support.constraint:constraint-layout:1.1.0",
             junit        : "junit:junit:4.12",
             runner       : "com.android.support.test:runner:1.0.2",
@@ -22,6 +23,9 @@ ext {
 
     compilation = [
             butterknife: "com.jakewharton:butterknife:${versions.butterknife}",
+            design     : "com.android.support:design:${versions.android_support}",
+            gson       : "com.google.code.gson:gson:2.8.5",
+            timber     : "com.jakewharton.timber:timber:4.7.0"
     ]
 
 }

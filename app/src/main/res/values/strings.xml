@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SnailsTrack</string>
+    <string name="pie_chart">自定义View-饼形图</string>
+    <string name="home_page">首页</string>
 </resources>

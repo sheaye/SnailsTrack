@@ -22,9 +22,13 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation builtin.support_v7
     implementation builtin.constraint
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     testImplementation builtin.junit
     androidTestImplementation builtin.runner
     androidTestImplementation builtin.espresso_core
     implementation compilation.butterknife
     annotationProcessor processor.butterknife
+    implementation compilation.design
+    implementation compilation.gson
+    implementation compilation.timber
 }
