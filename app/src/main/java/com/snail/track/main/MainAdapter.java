@@ -11,6 +11,7 @@ import android.widget.Button;
 
 import com.snail.track.R;
 import com.snail.track.data.MainEntity;
+import com.snail.track.samples.canvas_operations.CanvasOperationActivity;
 import com.snail.track.samples.pie_chart.PieChartActivity;
 
 import java.util.List;
@@ -71,6 +72,9 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
                     break;
                 case 2:
                     mContext.startActivity(new Intent(mContext, PieChartActivity.class));
+                    break;
+                case 3:
+                    mContext.startActivity(new Intent(mContext, CanvasOperationActivity.class));
                     break;
             }
         }
