@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.RectF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
@@ -18,6 +19,11 @@ public class CanvasView extends View {
     private float mAxisYLength;
     private int mTranslateX;
     private int mTranslateY;
+    private float mScaleX = 1.0f;
+    private float mScaleY = 1.0f;
+    private int mAngle;
+    private float mSkewX;
+    private float mSkewY;
 
     public CanvasView(Context context) {
         this(context, null);
@@ -27,6 +33,7 @@ public class CanvasView extends View {
         super(context, attrs);
         mPaint = new Paint();
         mPaint.setColor(Color.BLUE);
+        mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setStrokeWidth(3);
     }
 
@@ -45,6 +52,23 @@ public class CanvasView extends View {
         invalidate();
     }
 
+    public void scale(float scaleX, float scaleY) {
+        mScaleX = scaleX;
+        mScaleY = scaleY;
+        invalidate();
+    }
+
+    public void rotate(int angle) {
+        mAngle = angle;
+        invalidate();
+    }
+
+    public void skew(float x, float y) {
+        mSkewX = x;
+        mSkewY = y;
+        invalidate();
+    }
+
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
@@ -52,7 +76,11 @@ public class CanvasView extends View {
         drawAxis(canvas);
         canvas.save();
         canvas.translate(mTranslateX, mTranslateY);
-        canvas.drawCircle(0, 0, 10, mPaint);
+        canvas.scale(mScaleX, mScaleY);
+        canvas.rotate(mAngle);
+        canvas.skew(mSkewX, mSkewY);
+        RectF rect = new RectF(0, -50, 50, 0);
+        canvas.drawRect(rect, mPaint);
         canvas.restore();
     }
 
