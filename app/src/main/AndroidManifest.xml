@@ -20,6 +20,7 @@
         <activity android:name=".samples.large_figure_loader.LoadLargeFigureActivity" />
         <activity android:name=".samples.pie_chart.PieChartActivity" />
         <activity android:name=".samples.canvas_operations.CanvasOperationActivity" />
+        <activity android:name=".samples.draw_bitmap_text.DrawBitmapTextActivity"></activity>
     </application>
 
 </manifest>
