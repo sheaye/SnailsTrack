@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".samples.path.Bezier.BezierActivity">
+
+    <Button
+        android:id="@+id/quad_bezier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/quad_bezier"/>
+
+    <Button
+        android:id="@+id/cubic_bezier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/cubic_bezier"/>
+
+    <Button
+        android:id="@+id/heart_bezier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/heart"/>
+
+
+</LinearLayout>

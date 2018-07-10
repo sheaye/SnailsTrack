@@ -20,7 +20,12 @@
         <activity android:name=".samples.large_figure_loader.LoadLargeFigureActivity" />
         <activity android:name=".samples.pie_chart.PieChartActivity" />
         <activity android:name=".samples.canvas_operations.CanvasOperationActivity" />
-        <activity android:name=".samples.draw_bitmap_text.DrawBitmapTextActivity"></activity>
+        <activity android:name=".samples.draw_bitmap_text.DrawBitmapTextActivity" />
+        <activity android:name=".samples.path.PathTestActivity" />
+        <activity android:name=".samples.path.Bezier.quad.QuadBezierActivity" />
+        <activity android:name=".samples.path.Bezier.cubic.CubicBezierActivity" />
+        <activity android:name=".samples.path.Bezier.BezierActivity" />
+        <activity android:name=".samples.path.Bezier.heart.HeartBezierActivity"></activity>
     </application>
 
 </manifest>

@@ -13,6 +13,9 @@ import com.snail.track.R;
 import com.snail.track.data.MainEntity;
 import com.snail.track.samples.canvas_operations.CanvasOperationActivity;
 import com.snail.track.samples.draw_bitmap_text.DrawBitmapTextActivity;
+import com.snail.track.samples.path.Bezier.BezierActivity;
+import com.snail.track.samples.path.Bezier.quad.QuadBezierActivity;
+import com.snail.track.samples.path.PathTestActivity;
 import com.snail.track.samples.pie_chart.PieChartActivity;
 
 import java.util.List;
@@ -80,6 +83,11 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
                 case 4:
                     mContext.startActivity(new Intent(mContext, DrawBitmapTextActivity.class));
                     break;
+                case 5:
+                    mContext.startActivity(new Intent(mContext, PathTestActivity.class));
+                    break;
+                case 6:
+                    mContext.startActivity(new Intent(mContext, BezierActivity.class));
             }
         }
     }

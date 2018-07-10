@@ -4,4 +4,9 @@
     <string name="home_page">首页</string>
     <string name="canvas_operations">画布操作</string>
     <string name="scale">Scale:</string>
+    <string name="path_operations">Path的基本操作</string>
+    <string name="bezier_path">贝塞尔曲线</string>
+    <string name="cubic_bezier">三阶贝塞尔曲线</string>
+    <string name="quad_bezier">二阶贝塞尔曲线</string>
+    <string name="heart">爱心</string>
 </resources>
