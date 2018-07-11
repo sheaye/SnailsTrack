@@ -25,7 +25,8 @@
         <activity android:name=".samples.path.Bezier.quad.QuadBezierActivity" />
         <activity android:name=".samples.path.Bezier.cubic.CubicBezierActivity" />
         <activity android:name=".samples.path.Bezier.BezierActivity" />
-        <activity android:name=".samples.path.Bezier.heart.HeartBezierActivity"></activity>
+        <activity android:name=".samples.path.Bezier.heart.HeartBezierActivity" />
+        <activity android:name=".samples.path.Bezier.jelly.JellyBezierActivity"></activity>
     </application>
 
 </manifest>

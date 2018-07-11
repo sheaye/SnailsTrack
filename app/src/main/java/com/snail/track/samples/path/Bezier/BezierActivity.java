@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.snail.track.R;
 import com.snail.track.samples.path.Bezier.heart.HeartBezierActivity;
+import com.snail.track.samples.path.Bezier.jelly.JellyBezierActivity;
 import com.snail.track.samples.path.Bezier.quad.QuadBezierActivity;
 import com.snail.track.samples.path.Bezier.cubic.CubicBezierActivity;
 
@@ -23,7 +24,7 @@ public class BezierActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.quad_bezier, R.id.cubic_bezier, R.id.heart_bezier})
+    @OnClick({R.id.quad_bezier, R.id.cubic_bezier, R.id.heart_bezier, R.id.jelly_bezier})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.quad_bezier:
@@ -34,6 +35,9 @@ public class BezierActivity extends AppCompatActivity {
                 break;
             case R.id.heart_bezier:
                 startActivity(new Intent(this, HeartBezierActivity.class));
+                break;
+            case R.id.jelly_bezier:
+                startActivity(new Intent(this, JellyBezierActivity.class));
                 break;
         }
     }

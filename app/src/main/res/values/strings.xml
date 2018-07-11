@@ -9,4 +9,5 @@
     <string name="cubic_bezier">三阶贝塞尔曲线</string>
     <string name="quad_bezier">二阶贝塞尔曲线</string>
     <string name="heart">爱心</string>
+    <string name="jelly">果冻</string>
 </resources>
