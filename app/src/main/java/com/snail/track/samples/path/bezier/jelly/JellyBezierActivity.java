@@ -1,4 +1,4 @@
-package com.snail.track.samples.path.Bezier.jelly;
+package com.snail.track.samples.path.bezier.jelly;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.snail.track.samples.path.Bezier.quad;
+package com.snail.track.samples.path.bezier.quad;
 
 import android.content.Context;
 import android.graphics.Canvas;

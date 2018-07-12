@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".samples.path.PathTestActivity">
+    android:orientation="vertical">
 
-    <com.snail.track.samples.path.basic.BasicPathTestView
+    <com.snail.track.samples.path.fill.FillPathTestView
         android:id="@+id/path_test_view"
         android:layout_width="match_parent"
         android:layout_height="400dp"
@@ -22,32 +20,32 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/path_basic"
+                android:id="@+id/testFillEvenOdd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:text="Path的基本操作"/>
+                android:text="奇偶填充"/>
 
             <Button
-                android:id="@+id/path_bezier"
+                android:id="@+id/testInverseFillEvenOdd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:text="贝塞尔曲线"/>
+                android:text="反奇偶填充"/>
 
             <Button
-                android:id="@+id/path_fill"
+                android:id="@+id/testFillWinding"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:text="Path的填充"/>
+                android:text="非零环绕填充-小正方形顺时针"/>
 
             <Button
-                android:id="@+id/path_bool"
+                android:id="@+id/testFillWinding2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
-                android:text="Path的布尔操作"/>
+                android:text="非零环绕填充-小正方形逆时针"/>
 
         </LinearLayout>
 

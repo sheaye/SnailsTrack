@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".samples.path.Bezier.cubic.CubicBezierActivity">
+    tools:context=".samples.path.bezier.cubic.CubicBezierActivity">
 
-    <com.snail.track.samples.path.Bezier.cubic.CubicBezierView
+    <com.snail.track.samples.path.bezier.cubic.CubicBezierView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

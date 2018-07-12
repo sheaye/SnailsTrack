@@ -22,11 +22,15 @@
         <activity android:name=".samples.canvas_operations.CanvasOperationActivity" />
         <activity android:name=".samples.draw_bitmap_text.DrawBitmapTextActivity" />
         <activity android:name=".samples.path.PathTestActivity" />
-        <activity android:name=".samples.path.Bezier.quad.QuadBezierActivity" />
-        <activity android:name=".samples.path.Bezier.cubic.CubicBezierActivity" />
-        <activity android:name=".samples.path.Bezier.BezierActivity" />
-        <activity android:name=".samples.path.Bezier.heart.HeartBezierActivity" />
-        <activity android:name=".samples.path.Bezier.jelly.JellyBezierActivity"></activity>
+        <activity android:name=".samples.path.bezier.quad.QuadBezierActivity" />
+        <activity android:name=".samples.path.bezier.cubic.CubicBezierActivity" />
+        <activity android:name=".samples.path.bezier.BezierActivity" />
+        <activity android:name=".samples.path.bezier.heart.HeartBezierActivity" />
+        <activity android:name=".samples.path.bezier.jelly.JellyBezierActivity" />
+        <activity android:name=".samples.path.bool.PathBoolActivity" />
+        <activity android:name=".samples.path.bool.universe.UniverseActivity" />
+        <activity android:name=".samples.path.basic.BasicPathActivity" />
+        <activity android:name=".samples.path.fill.FillPathActivity"></activity>
     </application>
 
 </manifest>

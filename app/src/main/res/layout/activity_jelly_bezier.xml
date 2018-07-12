@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".samples.path.Bezier.jelly.JellyBezierActivity">
+    tools:context=".samples.path.bezier.jelly.JellyBezierActivity">
 
-    <com.snail.track.samples.path.Bezier.jelly.JellyBezierView
+    <com.snail.track.samples.path.bezier.jelly.JellyBezierView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

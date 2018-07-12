@@ -1,4 +1,4 @@
-package com.snail.track.samples.path.Bezier.cubic;
+package com.snail.track.samples.path.bezier.cubic;
 
 import android.content.Context;
 import android.graphics.Canvas;

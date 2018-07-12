@@ -1,4 +1,4 @@
-package com.snail.track.samples.path.Bezier;
+package com.snail.track.samples.path.bezier;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,10 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.snail.track.R;
-import com.snail.track.samples.path.Bezier.heart.HeartBezierActivity;
-import com.snail.track.samples.path.Bezier.jelly.JellyBezierActivity;
-import com.snail.track.samples.path.Bezier.quad.QuadBezierActivity;
-import com.snail.track.samples.path.Bezier.cubic.CubicBezierActivity;
+import com.snail.track.samples.path.bezier.heart.HeartBezierActivity;
+import com.snail.track.samples.path.bezier.jelly.JellyBezierActivity;
+import com.snail.track.samples.path.bezier.quad.QuadBezierActivity;
+import com.snail.track.samples.path.bezier.cubic.CubicBezierActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;

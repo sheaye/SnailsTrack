@@ -1,4 +1,4 @@
-package com.snail.track.samples.path.Bezier.heart;
+package com.snail.track.samples.path.bezier.heart;
 
 import android.content.Context;
 import android.graphics.Canvas;
