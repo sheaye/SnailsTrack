@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.snail.track.samples.path.fill.FillPathTestView
+    <com.snail.track.samples.custom_view.path.fill.FillPathTestView
         android:id="@+id/path_test_view"
         android:layout_width="match_parent"
         android:layout_height="400dp"

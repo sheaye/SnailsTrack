@@ -11,11 +11,8 @@ import android.widget.Button;
 
 import com.snail.track.R;
 import com.snail.track.data.MainEntity;
-import com.snail.track.samples.canvas_operations.CanvasOperationActivity;
-import com.snail.track.samples.draw_bitmap_text.DrawBitmapTextActivity;
-import com.snail.track.samples.path.bezier.BezierActivity;
-import com.snail.track.samples.path.PathTestActivity;
-import com.snail.track.samples.pie_chart.PieChartActivity;
+import com.snail.track.samples.custom_view.demos.pie_chart.PieChartActivity;
+import com.snail.track.samples.thread.HandlerThreadActivity;
 
 import java.util.List;
 
@@ -72,19 +69,11 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
         public void onClick(View v) {
             switch (id) {
                 case 1:
-                    break;
-                case 2:
                     mContext.startActivity(new Intent(mContext, PieChartActivity.class));
                     break;
-                case 3:
-                    mContext.startActivity(new Intent(mContext, CanvasOperationActivity.class));
-                    break;
-                case 4:
-                    mContext.startActivity(new Intent(mContext, DrawBitmapTextActivity.class));
-                    break;
-                case 5:
-                    mContext.startActivity(new Intent(mContext, PathTestActivity.class));
-                    break;
+                case 2:
+                    mContext.startActivity(new Intent(mContext, HandlerThreadActivity.class));
+
             }
         }
     }

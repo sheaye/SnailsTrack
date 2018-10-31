@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".samples.canvas_operations.CanvasOperationActivity">
+    tools:context=".samples.custom_view.canvas.CanvasOperationActivity">
 
     <include layout="@layout/layout_canvas_operation_translate" />
 
@@ -14,7 +14,7 @@
 
     <include layout="@layout/layout_canvas_operation_skew" />
 
-    <com.snail.track.samples.canvas_operations.CanvasView
+    <com.snail.track.samples.custom_view.canvas.CanvasView
         android:id="@+id/canvas_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

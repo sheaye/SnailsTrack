@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".samples.path.PathTestActivity">
+    tools:context=".samples.custom_view.path.PathTestActivity">
 
-    <com.snail.track.samples.path.basic.BasicPathTestView
+    <com.snail.track.samples.custom_view.path.basic.BasicPathTestView
         android:id="@+id/path_test_view"
         android:layout_width="match_parent"
         android:layout_height="400dp"

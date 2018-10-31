@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".samples.pie_chart.PieChartActivity">
+    tools:context=".samples.custom_view.demos.pie_chart.PieChartActivity">
 
-    <com.snail.track.samples.pie_chart.PieChartView
+    <com.snail.track.samples.custom_view.demos.pie_chart.PieChartView
         android:id="@+id/pie_chart_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

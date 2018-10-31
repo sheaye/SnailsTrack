@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.snail.track">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:name=".BaseApplication"
         android:allowBackup="true"
@@ -10,27 +12,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".main.MainActivity">
+        <activity android:name="main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".samples.large_figure_loader.LoadLargeFigureActivity" />
-        <activity android:name=".samples.pie_chart.PieChartActivity" />
-        <activity android:name=".samples.canvas_operations.CanvasOperationActivity" />
-        <activity android:name=".samples.draw_bitmap_text.DrawBitmapTextActivity" />
-        <activity android:name=".samples.path.PathTestActivity" />
-        <activity android:name=".samples.path.bezier.quad.QuadBezierActivity" />
-        <activity android:name=".samples.path.bezier.cubic.CubicBezierActivity" />
-        <activity android:name=".samples.path.bezier.BezierActivity" />
-        <activity android:name=".samples.path.bezier.heart.HeartBezierActivity" />
-        <activity android:name=".samples.path.bezier.jelly.JellyBezierActivity" />
-        <activity android:name=".samples.path.bool.PathBoolActivity" />
-        <activity android:name=".samples.path.bool.universe.UniverseActivity" />
-        <activity android:name=".samples.path.basic.BasicPathActivity" />
-        <activity android:name=".samples.path.fill.FillPathActivity"></activity>
+        <activity android:name=".samples.custom_view.demos.large_figure_loader.LoadLargeFigureActivity" />
+        <activity android:name=".samples.custom_view.demos.pie_chart.PieChartActivity" />
+        <activity android:name=".samples.custom_view.canvas.CanvasOperationActivity" />
+        <activity android:name=".samples.custom_view.bitmap.DrawBitmapTextActivity" />
+        <activity android:name=".samples.custom_view.path.PathTestActivity"/>
+        <activity android:name=".samples.custom_view.path.bezier.quad.QuadBezierActivity" />
+        <activity android:name=".samples.custom_view.path.bezier.cubic.CubicBezierActivity" />
+        <activity android:name=".samples.custom_view.path.bezier.BezierActivity" />
+        <activity android:name=".samples.custom_view.path.bezier.heart.HeartBezierActivity" />
+        <activity android:name=".samples.custom_view.path.bezier.jelly.JellyBezierActivity" />
+        <activity android:name=".samples.custom_view.path.bool.PathBoolActivity" />
+        <activity android:name=".samples.custom_view.path.bool.universe.UniverseActivity" />
+        <activity android:name=".samples.custom_view.path.basic.BasicPathActivity" />
+        <activity android:name=".samples.custom_view.path.fill.FillPathActivity"/>
+        <activity android:name=".samples.thread.HandlerThreadActivity" />
+        <activity android:name=".samples.skin.SkinTestActivity" />
+        <activity android:name=".samples.permission.PermissionTestActivity"/>
     </application>
 
 </manifest>
